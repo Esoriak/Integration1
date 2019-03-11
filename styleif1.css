@@ -1,0 +1,41 @@
+.card-img-top {
+    position: relative;
+}
+.img {
+    opacity :0.60;
+}
+.reward {
+    position : absolute;
+    width:30%;
+    margin-left: 35%;
+    margin-top:10%;
+    font-size: 1.6em;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    opacity: 1;
+}
+span {
+    color : orange;
+}
+.card-title {
+    position: absolute;
+    font-size: 3em;
+    color:white;
+    top : 30%;
+    margin: auto;
+    margin-left: 30%;
+    opacity : 1;
+}
+.card:hover .img {
+    opacity:1;
+}
+.card:hover .reward {
+    opacity:0;
+}
+.card:hover .card-title {
+    font-size : 2em;
+    top: 40%;
+}
